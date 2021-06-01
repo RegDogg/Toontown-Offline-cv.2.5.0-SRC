@@ -1,7 +1,6 @@
 # This is the following script I used to Dump all the Frozen Modules in Toontown Offline cv.2.5.0
 # Requires Immunity Debugger
 import immlib
-import TTOffGame, toontown.election.SafezoneInvasionGlobals
 
 DESC = 'PyCommand to dump frozen python modules'
 PYTHONMAGIC = '\x03\xF3\x0D\x0A\x00\x00\x00\x00' # Change this value according to the version of python used. The value given here is for Python 2.7
