@@ -1,0 +1,31 @@
+ToontownStart: Starting the game.
+ToontownStart: Setting the default font.
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+:DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:ShowBase: __dev__ == False
+ToontownStart: Loading the default GUI sounds.
+ToontownStart: Build Version: cv.2.5.0
+:Loader: starting bulk load of block 'init'
+:OTPClientRepository: Using connect method 'http'
+:ToontownDummyLauncher: DEPRECATED getRegistry: DEPLOYMENT
+:ToontownDummyLauncher: DEPRECATED getRegistry: GAME_DEPLOYMENT
+:OTPClientRepository: reg_deployment=None
+:OTPClientRepository: required-login auto.
+:Loader: At end of block 'init', expected 138, loaded 13, duration=2.8096067
+ToontownStart: Mini-server mode disabled! Using localhost...
+:OTPClientRepository: Connecting to gameserver directly (no proxy).
+:OTPClientRepository: Connecting to //localhost:7198 via HTTP interface.
+:ToonBase: Got window event: origin=(560, 240) size=(800, 600) title="Toontown Offline" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/etc/icon.ico cursor:/c/users/drew/appdata/local/temp/tmpi0vhc8/toonmono.cur absolute 
+:OTPClientRepository: Successfully connected to //localhost:7198.
+:ToontownDummyLauncher: Setting Disconnect Details normal
+:ToonBase: Got window event: origin=(938, 293) size=(800, 600) title="Toontown Offline" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/etc/icon.ico cursor:/c/users/drew/appdata/local/temp/tmpi0vhc8/toonmono.cur absolute 
+:ToonBase: Got window event: origin=(938, 293) size=(800, 600) title="Toontown Offline" !undecorated !fixed_size !fullscreen !foreground !minimized open !cursor_hidden icon:phase_3/etc/icon.ico cursor:/c/users/drew/appdata/local/temp/tmpi0vhc8/toonmono.cur absolute 
+:ToonBase: Got window event: origin=(938, 293) size=(800, 600) title="Toontown Offline" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/etc/icon.ico cursor:/c/users/drew/appdata/local/temp/tmpi0vhc8/toonmono.cur absolute 
+:ToonBase: Got window event: origin=(938, 293) size=(800, 600) title="Toontown Offline" !undecorated !fixed_size !fullscreen !foreground !minimized open !cursor_hidden icon:phase_3/etc/icon.ico cursor:/c/users/drew/appdata/local/temp/tmpi0vhc8/toonmono.cur absolute 
+:ToonBase: Got window event: origin=(938, 293) size=(800, 600) title="Toontown Offline" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/etc/icon.ico cursor:/c/users/drew/appdata/local/temp/tmpi0vhc8/toonmono.cur absolute 
+:ToonBase: Got window event: origin=(938, 293) size=(800, 600) title="Toontown Offline" !undecorated !fixed_size !fullscreen !foreground !minimized open !cursor_hidden icon:phase_3/etc/icon.ico cursor:/c/users/drew/appdata/local/temp/tmpi0vhc8/toonmono.cur absolute 

@@ -1,0 +1,1 @@
+toontown.suit.SuitLegList:51, toontown.suit.SuitLegList:35, toontown.suit.SuitLegList:17, toontown.suit.SuitBase:93, UnboundLocalError: local variable 'legType' referenced before assignment

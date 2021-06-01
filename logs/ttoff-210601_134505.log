@@ -1,0 +1,112 @@
+ToontownStart: Starting the game.
+ToontownStart: Setting the default font.
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+:DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:ShowBase: __dev__ == False
+ToontownStart: Loading the default GUI sounds.
+ToontownStart: Build Version: cv.2.5.0
+:Loader: starting bulk load of block 'init'
+:OTPClientRepository: Using connect method 'http'
+:ToontownDummyLauncher: DEPRECATED getRegistry: DEPLOYMENT
+:ToontownDummyLauncher: DEPRECATED getRegistry: GAME_DEPLOYMENT
+:OTPClientRepository: reg_deployment=None
+:OTPClientRepository: required-login auto.
+:Loader: At end of block 'init', expected 138, loaded 13, duration=2.7905265
+ToontownStart: Mini-server mode enabled! Using defined game server...
+:OTPClientRepository: Connecting to gameserver directly (no proxy).
+:OTPClientRepository: Connecting to //localhost:7198 via HTTP interface.
+:ToonBase: Got window event: origin=(560, 240) size=(800, 600) title="Toontown Offline" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/etc/icon.ico cursor:/c/users/drew/appdata/local/temp/tmpsasjen/toonmono.cur absolute 
+:ToonBase: Got window event: origin=(560, 240) size=(800, 600) title="Toontown Offline" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/etc/icon.ico cursor:/c/users/drew/appdata/local/temp/tmpsasjen/toonmono.cur absolute 
+:ToonBase: Got window event: origin=(560, 240) size=(800, 600) title="Toontown Offline" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/etc/icon.ico cursor:/c/users/drew/appdata/local/temp/tmpsasjen/toonmono.cur absolute 
+:ToonBase: Got window event: origin=(560, 240) size=(800, 600) title="Toontown Offline" !undecorated !fixed_size !fullscreen !foreground !minimized open !cursor_hidden icon:phase_3/etc/icon.ico cursor:/c/users/drew/appdata/local/temp/tmpsasjen/toonmono.cur absolute 
+:OTPClientRepository(warning): Failed to connect to //localhost:7198 (3 Timeout on connection).  Notifying user.
+:OTPClientRepository: Could not connect to localhost:7198. Try again?
+:ToonBase: Got window event: origin=(560, 240) size=(800, 600) title="Toontown Offline" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/etc/icon.ico cursor:/c/users/drew/appdata/local/temp/tmpsasjen/toonmono.cur absolute 
+:OTPClientRepository: Connecting to gameserver directly (no proxy).
+:OTPClientRepository: Connecting to //localhost:7198 via HTTP interface.
+:OTPClientRepository: Successfully connected to //localhost:7198.
+:ToontownDummyLauncher: Setting Disconnect Details normal
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x22D99288>}
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x22D99288>}
+:StateData: AvatarChooser.enter
+:DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:StateData: calling self.displayOptions.restrictToEmbedded(False)
+:OTPClientRepository: ================
+:OTPClientRepository: Chose avatar id: 100000001
+:OTPClientRepository: Chose avatar name: Banjo Gigglemash
+:OTPClientRepository: ================
+:Loader: starting bulk load of block 'localAvatarPlayGame'
+:ToontownTimeManager(warning): error parsing date string=
+local
+:NewsPageButtonManager(warning): Should not get here. NewsPageButtonManager.exitOff
+:PhotoAlbumPage: Made new directory to save screenshots.
+:OTPClientRepository: Entering shard 401000001
+:StreetSign: Street sign url is http://cdn.toontown.disney.go.com/toontown/en/street-signs/img/
+:ToonBase: Got window event: origin=(560, 240) size=(800, 600) title="Toontown Offline" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/etc/icon.ico cursor:/c/users/drew/appdata/local/temp/tmpsasjen/toonmono.cur absolute 
+:ToonBase: Got window event: origin=(560, 240) size=(800, 600) title="Toontown Offline" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/etc/icon.ico cursor:/c/users/drew/appdata/local/temp/tmpsasjen/toonmono.cur absolute 
+:TimeManager: Clock sync: TimeManager.announceGenerate
+:OTPClientRepository: No sync from TimeManager.
+:OTPClientRepository: gotTimeSync
+:Loader: At end of block 'localAvatarPlayGame', expected 400, loaded 30, duration=9.4365953
+0
+:TimeManager: Clock sync roundtrip took 3181.474 ms
+:TimeManager: AI time delta is -0:03 from server delta
+:TimeManager: Local clock uncertainty +/- 1.591 s
+:TimeManager: Uncertainty is too high, trying again.
+:Loader: starting bulk load of block 'hood'
+:TimeManager: Clock sync roundtrip took 4064.740 ms
+:TimeManager: AI time delta is -0:04 from server delta
+:ClockDelta: previous delta at 19.622 s, +/- 1.592 s.
+:ClockDelta: new delta at 20.046 s, +/- 2.032 s.
+:ClockDelta: intersection at 19.622 s, +/- 1.592 s.
+:TimeManager: Local clock uncertainty +/- 1.593 s
+:TimeManager: Uncertainty is too high, trying again.
+:DistributedObject(warning): no loader.getInteractiveProp self.interactiveProp is None
+:DistributedObject(warning): no loader.getInteractiveProp self.interactiveProp is None
+:TimeManager: Clock sync roundtrip took 559.985 ms
+:TimeManager: AI time delta is -0:00 from server delta
+:ClockDelta: previous delta at 19.622 s, +/- 1.593 s.
+:ClockDelta: new delta at 18.271 s, +/- 0.280 s.
+:ClockDelta: intersection at 18.290 s, +/- 0.261 s.
+:TimeManager: Local clock uncertainty +/- 0.261 s
+:TimeManager: Uncertainty is too high, trying again.
+:TimeManager: Clock sync roundtrip took 23.472 ms
+:TimeManager: AI time delta is -0:00 from server delta
+:ClockDelta: previous delta at 18.290 s, +/- 0.261 s.
+:ClockDelta: new delta at 18.046 s, +/- 0.012 s.
+:ClockDelta: intersection at 18.046 s, +/- 0.012 s.
+:TimeManager: Local clock uncertainty +/- 0.012 s
+:DistributedObject(warning): no loader.getInteractiveProp self.interactiveProp is None
+:DistributedObject(warning): no loader.getInteractiveProp self.interactiveProp is None
+:DistributedObject(warning): no loader.getInteractiveProp self.interactiveProp is None
+fisherman origin:  render/scene/toontownCentral/2000:safe_zone/fishing_pond_1/npc_fisherman_origin_0
+:DistributedToon: calling LocalAvatar.startchat
+:Loader: At end of block 'hood', expected 8, loaded 27, duration=5.6176909
+:Teleport(debug): teleportInDone: walk
+:Playground: Unloading Place (2000). Fsm in final
+:DistributedToon: calling LocalAvatar.startchat
+:Actor(warning): no part named head-front*!
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+:ToonInterior: Unloading Place (2520). Fsm in final
+:Loader: starting bulk load of block 'hood'
+TIMER startTime 1157
+fisherman origin:  render/scene/daisysGarden/6000:safe_zone/fishing_pond_1/npc_fisherman_origin_0
+:DistributedToon: calling LocalAvatar.startchat
+:Loader: At end of block 'hood', expected 502, loaded 10, duration=2.2720686
+:Teleport(debug): teleportInDone: walk
+:Playground: Unloading Place (6000). Fsm in final
+:Loader: starting bulk load of block 'hood'
+:Actor(warning): no part named head-front*!
+TIMER startTime 1159
+fisherman origin:  render/scene/toonfest/7000:safe_zone/fishing_pond_1/npc_fisherman_origin_0
+:DistributedToon: calling LocalAvatar.startchat
+:Loader: At end of block 'hood', expected 502, loaded 14, duration=2.9167035
+:ToonBase: Got window event: origin=(560, 240) size=(800, 600) title="Toontown Offline" !undecorated !fixed_size !fullscreen !foreground !minimized open !cursor_hidden icon:phase_3/etc/icon.ico cursor:/c/users/drew/appdata/local/temp/tmpsasjen/toonmono.cur absolute 

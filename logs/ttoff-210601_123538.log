@@ -1,0 +1,22 @@
+ToontownStart: Starting the game.
+ToontownStart: Setting the default font.
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Traceback (most recent call last):
+  File "C:\Panda3D-1.8.1\python\lib\runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "C:\Panda3D-1.8.1\python\lib\runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "C:\Users\Drew\Desktop\TTOffSRC-cv.2.5.0\toontown\toonbase\ToontownStart.py", line 58, in <module>
+    ToonBase.ToonBase()
+  File "toontown\toonbase\ToonBase.py", line 40, in __init__
+    FNAFBase.FNAFBase.__init__(self)
+  File "toontown\fnaf\FNAFBase.py", line 16, in __init__
+    base.cogFont = ToontownGlobals.getSuitFont()
+  File "toontown\toonbase\ToontownGlobals.py", line 149, in getSuitFont
+    SuitFont = loader.loadFont(TTLocalizer.SuitFont, pixelsPerUnit=40, spaceAdvance=0.25, lineHeight=1.0)
+  File "C:\Panda3D-1.8.1\direct\showbase\Loader.py", line 437, in loadFont
+    raise IOError, message
+IOError: Could not load font file: phase_3/models/fonts/vtRemingtonPortable.ttf

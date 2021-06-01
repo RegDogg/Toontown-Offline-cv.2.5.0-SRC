@@ -1,0 +1,9 @@
+# Embedded file name: toontown.estate.ClosetGlobals
+SHIRT = 1
+SHORTS = 2
+CLOSET_MOVIE_COMPLETE = 1
+CLOSET_MOVIE_CLEAR = 2
+CLOSET_MOVIE_TIMEOUT = 3
+CLOSED = 0
+OPEN = 1
+TIMEOUT_TIME = 200

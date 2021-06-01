@@ -1,0 +1,3 @@
+# Embedded file name: toontown.speedchat.TTSCDecoders
+from TTSCToontaskTerminal import decodeTTSCToontaskMsg
+from TTSCResistanceTerminal import decodeTTSCResistanceMsg

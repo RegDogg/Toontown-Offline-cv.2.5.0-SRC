@@ -1,0 +1,42 @@
+ToontownStart: Starting the game.
+ToontownStart: Setting the default font.
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+:DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:ShowBase: __dev__ == False
+ToontownStart: Loading the default GUI sounds.
+ToontownStart: Build Version: cv.2.5.0
+:Loader: starting bulk load of block 'init'
+Traceback (most recent call last):
+  File "D:\Toontown-Sources\Toontown-Sources\Toontown-Offline-Folder\Panda3D-1.8.1\python\lib\runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "D:\Toontown-Sources\Toontown-Sources\Toontown-Offline-Folder\Panda3D-1.8.1\python\lib\runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "C:\Users\Drew\Desktop\TTOffSRC-cv.2.5.0\toontown\toonbase\ToontownStart.py", line 108, in <module>
+    from toontown.distributed import ToontownClientRepository
+  File "toontown\distributed\ToontownClientRepository.py", line 35, in <module>
+    from toontown.friends import FriendsListPanel
+  File "toontown\friends\FriendsListPanel.py", line 6, in <module>
+    from toontown.toon import ToonAvatarPanel
+  File "toontown\toon\ToonAvatarPanel.py", line 14, in <module>
+    import ToonAvatarDetailPanel
+  File "toontown\toon\ToonAvatarDetailPanel.py", line 9, in <module>
+    import DistributedToon
+  File "toontown\toon\DistributedToon.py", line 13, in <module>
+    import Toon
+  File "toontown\toon\Toon.py", line 3244, in <module>
+    loadModels()
+  File "toontown\toon\Toon.py", line 201, in loadModels
+    loadTex(shirt)
+  File "toontown\toon\Toon.py", line 195, in loadTex
+    tex = loader.loadTexture('/' + path)
+  File "toontown\toonbase\ToontownLoader.py", line 88, in loadTexture
+    ret = Loader.Loader.loadTexture(self, texturePath, alphaPath, okMissing=okMissing)
+  File "D:\Toontown-Sources\Toontown-Sources\Toontown-Offline-Folder\Panda3D-1.8.1\direct\showbase\Loader.py", line 554, in loadTexture
+    raise IOError, message
+IOError: Could not load texture: /phase_3/maps/desat_shirt_1.jpg
+:TaskManager: TaskManager.destroy()

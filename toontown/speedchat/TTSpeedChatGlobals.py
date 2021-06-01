@@ -1,0 +1,3 @@
+# Embedded file name: toontown.speedchat.TTSpeedChatGlobals
+from TTSCToontaskTerminal import TTSCToontaskMsgEvent
+from TTSCResistanceTerminal import TTSCResistanceMsgEvent
