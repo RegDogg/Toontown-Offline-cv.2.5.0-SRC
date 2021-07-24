@@ -36,6 +36,12 @@ smooth-lag 0.4
 want-membership #t
 
 
+# Fix for newer Nvidia GPU's to lower the gamma
+load-display pandagl
+color-bits 8 8 8
+alpha-bits 8
+
+
 # DC Files
 dc-file config/ttoff.dc
 
