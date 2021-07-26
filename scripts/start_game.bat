@@ -1,5 +1,5 @@
 @echo off
-title Toontown Rewritten Client
+title Toontown Offline Client
 cd..
 
 rem Read the contents of PPYTHON_PATH into %PPYTHON_PATH%:
