@@ -1,4 +1,3 @@
-# Embedded file name: toontown.battle.BattleParticles
 from direct.particles.ParticleEffect import *
 import os
 from direct.directnotify import DirectNotifyGlobal
@@ -33,13 +32,14 @@ def getParticle(name):
     else:
         notify.warning('getParticle() - no name: %s' % name)
         return None
-        return None
+    return None
 
 
 def loadParticleFile(name):
-    raise name.endswith('.ptf') or AssertionError
-    name = name[:-4]
+    assert name.endswith('.ptf')
+    name = name[:-4] # Strip .ptf
     particleFunc = ParticleDefs.ParticleTable[name]
+
     effect = ParticleEffect()
     particleFunc(effect)
     return effect
@@ -49,7 +49,7 @@ def createParticleEffect(name = None, file = None, numParticles = None, color = 
     if not name:
         fileName = file + '.ptf'
         return loadParticleFile(fileName)
-    elif name == 'GearExplosion':
+    if name == 'GearExplosion':
         return __makeGearExplosion(numParticles)
     elif name == 'BigGearExplosion':
         return __makeGearExplosion(numParticles, 'Big')
@@ -107,7 +107,7 @@ def createParticleEffect(name = None, file = None, numParticles = None, color = 
         return loadParticleFile('withdrawal.ptf')
     else:
         notify.warning('createParticleEffect() - no name: %s' % name)
-        return None
+    return None
 
 
 def setEffectTexture(effect, name, color = None):
